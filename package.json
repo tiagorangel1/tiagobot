@@ -1,0 +1,19 @@
+{
+  "name": "tiagobot",
+  "module": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "forever": "forever start ./forever.json",
+    "restart": "forever restart tiagobot",
+    "start": "bun run src/index.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "discord.js": "^14.18.0"
+  }
+}

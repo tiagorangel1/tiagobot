@@ -1,0 +1,10 @@
+{
+    "uid": "tiagobot",
+    "append": true,
+    "script": "src/index.js",
+    "command": "bun",
+    "sourceDir": "/home/pi/Desktop/tiagobot",
+    "logFile": "/home/pi/Desktop/tiagobot/logs/forever.log",
+    "outFile": "/home/pi/Desktop/tiagobot/logs/out.log",
+    "errFile": "/home/pi/Desktop/tiagobot/logs/error.log"
+  }
